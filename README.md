@@ -1,4 +1,4 @@
-# lib_dividersPN
+# lib_divisorsPN
 
 The positive and negative divisors library generates the divisors of an integer.
 Input: 2
