@@ -11,6 +11,12 @@ Output: -1, -2, 1, 2
 1- first step include the file "lib_Divisors.h"
 
     #include "lib_divisoresPN/hDivPN/lib_Divisors.h"
+    #using namespace dvPN;
+    
+    You can use the functions through two forms:  
+    
+###### First: using namespace name; 
+###### Second: Operator of scope locator 'std::name_function'; 
     
 2- Second step functions for use:
 
