@@ -25,8 +25,8 @@ Output: -1, -2, 1, 2
     
 2- Second step functions for use:
 
-###### nDivisors_PN(int value); //return divisors positive and negative
-###### nDivisorsN(int value,int value2);**//return divisors negatives
+###### *nDivisors_PN(int value); //return divisors positive and negative
+###### *nDivisorsN(int value,int value2);**//return divisors negatives
 
  **Note: The value2 is an array and must to be initialized with value null or '0' or diferent of 0 and must to have a size.**
        
@@ -36,9 +36,9 @@ Output: -1, -2, 1, 2
          ** stack smashing detected  : terminated  **                      
           Aborted (core dumped)   
         --------------------------------------------
-  **Warning: the array go receive the divisors for be used**
+  **Warning: the array it goes receive the divisors that will be used**
   
- ###### nDivisorsP(int value, int value2);/ return divisors positves
+ ###### *nDivisorsP(int value, int value2); // return divisors positves
 
        
       
