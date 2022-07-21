@@ -11,7 +11,7 @@ Output: -1, -2, 1, 2
 1- first step include the file "lib_Divisors.h"
 
     #include "lib_divisoresPN/hDivPN/lib_Divisors.h"
-    #using namespace dvPN;
+     using namespace dvPN;
     
 **You can use the functions through two forms:**
 
@@ -25,10 +25,11 @@ Output: -1, -2, 1, 2
     
 2- Second step functions for use:
 
-###### *nDivisors_PN(int value); //return divisors positive and negative
-###### *nDivisorsN(int value,int value2);**//return divisors negatives
+###### nDivisors_PN(int value); //return divisors positive and negative
 
- **Note: The value2 is an array and must to be initialized with value null or '0' or diferent of 0 and must to have a size.**
+###### nDivisorsN(int value,int value2); //return divisors negatives
+
+ **Note: The variable int value2 is an array and must to be initialized with value null or '0' or diferent of 0 and must to have a size.**
        
   Else it goes return this error:  
   
@@ -38,7 +39,7 @@ Output: -1, -2, 1, 2
         --------------------------------------------
   **Warning: the array it goes receive the divisors that will be used**
   
- ###### *nDivisorsP(int value, int value2); // return divisors positves
+ ###### nDivisorsP(int value, int value2); // return divisors positves
 
        
       
