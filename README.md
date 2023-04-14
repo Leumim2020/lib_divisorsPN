@@ -1,6 +1,6 @@
 # lib_divisorsPN
 
-![](https://github.com/Leumim2020/lib_divisorsPN/blob/main/image/lg.png)
+<p align=center><image src="https://github.com/Leumim2020/lib_divisorsPN/blob/main/image/lg.png"</p>
 
 The library positive and negative generates divisors the of an integer.
 Input: 2
